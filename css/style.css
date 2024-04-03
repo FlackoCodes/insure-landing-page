@@ -188,7 +188,11 @@ section.outro> .container h4{
     /* background-size: cover; */
     background-position: center;
     text-align: center;
+}
+
+.sub-foot{
     padding: 3rem 0;
+
 }
 
 .sub-footer img{
@@ -235,16 +239,12 @@ footer {
     padding: 2rem 0;
 }
 
-/* @media screen and (min-width: 768px) {
-    .col-reverse{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    .hero-img{
-        position: relative;
-        bottom: 150px;
-        : 20px;
-    }
-} */
+@media screen and (min-width: 768px) {
+ .nav-links{
+    display: block;
+ }
+
+ .hamburger-menu{
+    display: none;
+ }
+}
