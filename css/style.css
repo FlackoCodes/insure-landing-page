@@ -38,7 +38,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: .7rem;
 }
 
 .nav-links ul:nth-child(4){
@@ -47,8 +47,8 @@ a{
 
 .nav-links a{
     color: hsl(256, 26%, 20%);
-    font-weight: 400;
-    font-size: .9rem;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 li{
@@ -70,6 +70,20 @@ nav{
 
 .nav-links{
     display: none;
+}
+
+.nav-links ul li:last-child{
+    border: 1.4px solid hsl(256, 26%, 20%);
+    padding: .2rem .5rem;
+}
+
+.nav-links ul li:last-child:hover{
+    background-color: hsl(256, 26%, 20%);
+    transition: hover 2s ease-in-out;
+}
+
+.nav-links ul li:last-child:hover a{
+    color: hsl(0, 0%, 100%);
 }
 
 picture img{
