@@ -86,6 +86,10 @@ nav{
     color: hsl(0, 0%, 100%);
 }
 
+#nav-links picture img{
+    display: none;
+}
+
 picture img{
     display: block;
     /* width: 100%; */
@@ -94,13 +98,13 @@ picture img{
 
 main{
     background-color: hsl(256, 26%, 20%);
+    
 }
 
 main > div{
     color: hsl(0, 0%, 100%);
     text-align: center;
     padding: 2rem 1.5rem;
-    position: relative;
     z-index: 200;
 }
 
@@ -301,6 +305,18 @@ main{
     position: relative;
 }
 
+.left-squigly{
+    width: 120px;
+    top: 150px;
+    left: 0;
+    z-index: 250;
+}
+
+.right-squigly{
+    top: 0;
+    bottom: 0;
+}
+
 .hero-img{
     position: absolute;
     right: 150px;
@@ -322,6 +338,12 @@ main > .container h1{
 main > .container p{
     width: 500px;
     font-weight: 300;
+}
+
+
+#nav-links picture img{
+    top: 0;
+    right: 0;
 }
 
 .container hr{
